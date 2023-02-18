@@ -177,7 +177,7 @@ def asciify_image(image_t):
         print("-------------------------------------------------------------------------------")
     else:
         save_as_text(ascii_art)
-    time.sleep(frames / 722)
+    time.sleep(1 / frames)
     if not (debug):
         clean_cmd()
 
